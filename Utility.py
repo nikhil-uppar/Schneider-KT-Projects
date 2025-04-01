@@ -6,9 +6,9 @@ def calculator():
 #########################################################################################################################################################################
 #Name:Nikhil uppar
 #Description:closing the calculator
-#def cal_close():
-#   calc= Sys.Process("Microsoft.WindowsCalculator")
-#   calc.Close()
+def cal_close():
+  calc= Sys.Process("Microsoft.WindowsCalculator")
+  calc.Close()
 #################################################################################################################################################
 #name:Nikhil Uppar
 #description:Addition of numbers 
@@ -44,13 +44,6 @@ def some():
   numbers_add("Three")
   std_operators("equalButton")  
    
-#def jasadfascx():
-#  for btn in op_button:
-#    #Log.Message(f'{btn.ObejectIdentifier}') AutomationId
-#    if "plus" in btn.AutomationId:
-#      btn.Click()
-#      Log.Message(f'{btn.ObjectIdentifier} is clicked')
-#      break
 
       
   
